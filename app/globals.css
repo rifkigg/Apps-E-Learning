@@ -22,13 +22,18 @@
   }
 }
 
-/* body {
-  background: linear-gradient(to bottom, yellow, #d3d3d3);
-  background-repeat: no-repeat;
-  height: 100vh;
-} */
+/* Hide scrollbar for Chrome, Safari and Opera */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
 
-img{
+/* Hide scrollbar for IE, Edge and Firefox */
+.hide-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+img {
   width: 100%;
   height: auto;
 }

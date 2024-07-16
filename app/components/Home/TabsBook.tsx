@@ -80,8 +80,11 @@ const TabsBook: React.FC = () => {
               <div className="grid grid-cols-2">
                 {buku.bab.map((bab) => {
                   return (
-                    <div key={bab.id} className="my-5 mx-auto flex flex-col items-center">
-                      <FaBook className="inline-block text-5xl text-center mx-auto" />
+                    <div
+                      key={bab.id}
+                      className="my-5 mx-auto flex flex-col items-center"
+                    >
+                      <FaBook className="inline-block text-5xl text-center mx-auto mb-5 text-gray-300" />
                       <p className="text-center">{bab.nama}</p>
                     </div>
                   );
@@ -95,6 +98,27 @@ const TabsBook: React.FC = () => {
     }
   }, [jurusanList, activeTab]);
 
+  useEffect(() => {
+    const tabs = document.querySelectorAll(".buku-tab");
+    tabs.forEach((tab) => {
+      tab.addEventListener("click", (event) => {
+        setTimeout(() => {
+          (event.target as HTMLElement).scrollIntoView({
+            behavior: "smooth",
+            inline: "start",
+          });
+        }, 100);
+      });
+    });
+
+    // Cleanup event listeners on component unmount
+    return () => {
+      tabs.forEach((tab) => {
+        tab.removeEventListener("click", () => {});
+      });
+    };
+  }, [jurusanList, activeTab]);
+
   const handleTabClick = (bukuId: number) => {
     setActiveTab(bukuId);
   };
@@ -105,22 +129,26 @@ const TabsBook: React.FC = () => {
 
   return (
     <>
-      <ul className="flex flex-row gap-4 overflow-y-auto">
+      <section className="border-b-2 border-b-gray-300 flex flex-row gap-3 overflow-x-auto mx-auto whitespace-nowrap hide-scrollbar">
         {selectedProgramStudi &&
           selectedProgramStudi.buku.map((buku) => (
-            <li
-              key={buku.id}
-              className={`px-4 py-2 text-green-800 cursor-pointer ${
-                activeTab === buku.id ? "border-b-2 border-green-600" : ""
-              }`}
-              onClick={() => handleTabClick(buku.id)}
-            >
-              {buku.buku}
-            </li>
+            <div>
+              <p
+                key={buku.id}
+                className={`buku-tab px-4 py-2 cursor-pointer w-full ${
+                  activeTab === buku.id
+                    ? "border-b-2 border-green-600 text-green-800"
+                    : ""
+                }`}
+                onClick={() => handleTabClick(buku.id)}
+              >
+                {buku.buku}
+              </p>
+            </div>
           ))}
-      </ul>
+      </section>
       {activeTab && (
-        <div className="mt-4 p-4 bg-gray-100 rounded-lg overflow-x-auto h-[300px]">
+        <div className="my-4 p-4 rounded-lg overflow-y-auto h-[300px] ">
           {bookDescriptions[activeTab]}
         </div>
       )}
