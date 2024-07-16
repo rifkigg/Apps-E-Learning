@@ -1,4 +1,18 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+  experimental: {
+    appDir: true,
+  },
+  images: {
+    remotePatterns: [
+        {
+            hostname: 'placehold.co',
+        },
+        {
+            hostname: 'th.bing.com',
+        },
+    ],
+}
+};
 
 export default nextConfig;

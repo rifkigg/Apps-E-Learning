@@ -1,0 +1,901 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "user1",
+      "password": "pass1",
+      "email": "user1@gmail.com",
+      "avatar": "https://th.bing.com/th/id/OIP.EVCGXvrjsvMrhfOX3su_FgHaHa?w=180&h=180&c=7&r=0&o=5&pid=1.7",
+      "coins": 34,
+      "gems": 54,
+      "exp": 1000
+    },
+    {
+      "id": 2,
+      "username": "user2",
+      "password": "pass2",
+      "email": "user2@gmail.com",
+      "avatar": "https://th.bing.com/th/id/OIP.EVCGXvrjsvMrhfOX3su_FgHaHa?w=180&h=180&c=7&r=0&o=5&pid=1.7",
+      "coins": 41,
+      "gems": 12,
+      "exp": 1456
+    },
+    {
+      "id": 3,
+      "username": "user3",
+      "password": "pass3",
+      "email": "user3@gmail.com",
+      "avatar": "https://th.bing.com/th/id/OIP.EVCGXvrjsvMrhfOX3su_FgHaHa?w=180&h=180&c=7&r=0&o=5&pid=1.7",
+      "coins": 32,
+      "gems": 45,
+      "exp": 7632
+    }
+  ],
+
+  "jurusan": [
+    {
+      "id": 1,
+      "nama": "Farmasi",
+      "program_studi": [
+        {
+          "id": 101,
+          "nama": "PROFESI APOTEKER",
+          "buku": [
+            {
+              "id": 1001,
+              "buku": "Buku Materi",
+              "bab": [
+                {
+                  "id": 10001,
+                  "nama": "Bab 1",
+                  "soal": [
+                    {
+                      "id": 100001,
+                      "pertanyaan": "Apa yang dimaksud dengan variabel dalam pemrograman?",
+                      "jawaban": "Variabel adalah simbol yang digunakan untuk menyimpan nilai."
+                    },
+                    {
+                      "id": 100002,
+                      "pertanyaan": "Bagaimana cara mendeklarasikan variabel dalam JavaScript?",
+                      "jawaban": "Dengan menggunakan kata kunci 'var', 'let', atau 'const'."
+                    }
+                  ],
+                  "video_pembahasan": "https://example.com/video-pengantar-pemrograman"
+                },
+                {
+                  "id": 10002,
+                  "nama": "Bab 2",
+                  "soal": [
+                    {
+                      "id": 100003,
+                      "pertanyaan": "Apa yang dimaksud dengan variabel dalam pemrograman?",
+                      "jawaban": "Variabel adalah simbol yang digunakan untuk menyimpan nilai."
+                    },
+                    {
+                      "id": 100004,
+                      "pertanyaan": "Bagaimana cara mendeklarasikan variabel dalam JavaScript?",
+                      "jawaban": "Dengan menggunakan kata kunci 'var', 'let', atau 'const'."
+                    }
+                  ],
+                  "video_pembahasan": "https://example.com/video-pengantar-pemrograman"
+                },
+                {
+                  "id": 10003,
+                  "nama": "Bab 3",
+                  "soal": [
+                    {
+                      "id": 100005,
+                      "pertanyaan": "Apa yang dimaksud dengan variabel dalam pemrograman?",
+                      "jawaban": "Variabel adalah simbol yang digunakan untuk menyimpan nilai."
+                    },
+                    {
+                      "id": 100006,
+                      "pertanyaan": "Bagaimana cara mendeklarasikan variabel dalam JavaScript?",
+                      "jawaban": "Dengan menggunakan kata kunci 'var', 'let', atau 'const'."
+                    }
+                  ],
+                  "video_pembahasan": "https://example.com/video-pengantar-pemrograman"
+                }
+              ]
+            },
+            {
+              "id": 1002,
+              "buku": "Buku Paktek",
+              "bab": [
+                {
+                  "id": 10004,
+                  "nama": "Bab 1 Buku Praktek",
+                  "soal": [
+                    {
+                      "id": 100007,
+                      "pertanyaan": "Apa yang dimaksud dengan variabel dalam pemrograman?",
+                      "jawaban": "Variabel adalah simbol yang digunakan untuk menyimpan nilai."
+                    },
+                    {
+                      "id": 100008,
+                      "pertanyaan": "Bagaimana cara mendeklarasikan variabel dalam JavaScript?",
+                      "jawaban": "Dengan menggunakan kata kunci 'var', 'let', atau 'const'."
+                    }
+                  ],
+                  "video_pembahasan": "https://example.com/video-pengantar-pemrograman"
+                },
+                {
+                  "id": 10005,
+                  "nama": "Bab 2 Buku Praktek",
+                  "soal": [
+                    {
+                      "id": 100009,
+                      "pertanyaan": "Apa yang dimaksud dengan variabel dalam pemrograman?",
+                      "jawaban": "Variabel adalah simbol yang digunakan untuk menyimpan nilai."
+                    },
+                    {
+                      "id": 100010,
+                      "pertanyaan": "Bagaimana cara mendeklarasikan variabel dalam JavaScript?",
+                      "jawaban": "Dengan menggunakan kata kunci 'var', 'let', atau 'const'."
+                    }
+                  ],
+                  "video_pembahasan": "https://example.com/video-pengantar-pemrograman"
+                },
+                {
+                  "id": 10006,
+                  "nama": "Bab 3 Buku Praktek",
+                  "soal": [
+                    {
+                      "id": 100011,
+                      "pertanyaan": "Apa yang dimaksud dengan variabel dalam pemrograman?",
+                      "jawaban": "Variabel adalah simbol yang digunakan untuk menyimpan nilai."
+                    },
+                    {
+                      "id": 100012,
+                      "pertanyaan": "Bagaimana cara mendeklarasikan variabel dalam JavaScript?",
+                      "jawaban": "Dengan menggunakan kata kunci 'var', 'let', atau 'const'."
+                    }
+                  ],
+                  "video_pembahasan": "https://example.com/video-pengantar-pemrograman"
+                }
+              ]
+            },
+            {
+              "id": 1003,
+              "buku": "Buku 1000 Soal",
+              "bab": [
+                {
+                  "id": 10007,
+                  "nama": "Bab 1 Buku 1000 Soal",
+                  "soal": [
+                    {
+                      "id": 100013,
+                      "pertanyaan": "Apa yang dimaksud dengan variabel dalam pemrograman?",
+                      "jawaban": "Variabel adalah simbol yang digunakan untuk menyimpan nilai."
+                    },
+                    {
+                      "id": 100014,
+                      "pertanyaan": "Bagaimana cara mendeklarasikan variabel dalam JavaScript?",
+                      "jawaban": "Dengan menggunakan kata kunci 'var', 'let', atau 'const'."
+                    }
+                  ],
+                  "video_pembahasan": "https://example.com/video-pengantar-pemrograman"
+                },
+                {
+                  "id": 10008,
+                  "nama": "Bab 2",
+                  "soal": [
+                    {
+                      "id": 100015,
+                      "pertanyaan": "Apa yang dimaksud dengan variabel dalam pemrograman?",
+                      "jawaban": "Variabel adalah simbol yang digunakan untuk menyimpan nilai."
+                    },
+                    {
+                      "id": 100016,
+                      "pertanyaan": "Bagaimana cara mendeklarasikan variabel dalam JavaScript?",
+                      "jawaban": "Dengan menggunakan kata kunci 'var', 'let', atau 'const'."
+                    }
+                  ],
+                  "video_pembahasan": "https://example.com/video-pengantar-pemrograman"
+                },
+                {
+                  "id": 10009,
+                  "nama": "Bab 3",
+                  "soal": [
+                    {
+                      "id": 100017,
+                      "pertanyaan": "Apa yang dimaksud dengan variabel dalam pemrograman?",
+                      "jawaban": "Variabel adalah simbol yang digunakan untuk menyimpan nilai."
+                    },
+                    {
+                      "id": 100018,
+                      "pertanyaan": "Bagaimana cara mendeklarasikan variabel dalam JavaScript?",
+                      "jawaban": "Dengan menggunakan kata kunci 'var', 'let', atau 'const'."
+                    }
+                  ],
+                  "video_pembahasan": "https://example.com/video-pengantar-pemrograman"
+                }
+              ]
+            },
+            {
+              "id": 1004,
+              "buku": "Buku Latihan",
+              "bab": [
+                {
+                  "id": 10010,
+                  "nama": "Bab 1 Buku Latihan",
+                  "soal": [
+                    {
+                      "id": 100019,
+                      "pertanyaan": "Apa yang dimaksud dengan variabel dalam pemrograman?",
+                      "jawaban": "Variabel adalah simbol yang digunakan untuk menyimpan nilai."
+                    },
+                    {
+                      "id": 100020,
+                      "pertanyaan": "Bagaimana cara mendeklarasikan variabel dalam JavaScript?",
+                      "jawaban": "Dengan menggunakan kata kunci 'var', 'let', atau 'const'."
+                    }
+                  ],
+                  "video_pembahasan": "https://example.com/video-pengantar-pemrograman"
+                },
+                {
+                  "id": 10011,
+                  "nama": "Bab 2",
+                  "soal": [
+                    {
+                      "id": 100021,
+                      "pertanyaan": "Apa yang dimaksud dengan variabel dalam pemrograman?",
+                      "jawaban": "Variabel adalah simbol yang digunakan untuk menyimpan nilai."
+                    },
+                    {
+                      "id": 100022,
+                      "pertanyaan": "Bagaimana cara mendeklarasikan variabel dalam JavaScript?",
+                      "jawaban": "Dengan menggunakan kata kunci 'var', 'let', atau 'const'."
+                    }
+                  ],
+                  "video_pembahasan": "https://example.com/video-pengantar-pemrograman"
+                },
+                {
+                  "id": 10012,
+                  "nama": "Bab 3",
+                  "soal": [
+                    {
+                      "id": 100023,
+                      "pertanyaan": "Apa yang dimaksud dengan variabel dalam pemrograman?",
+                      "jawaban": "Variabel adalah simbol yang digunakan untuk menyimpan nilai."
+                    },
+                    {
+                      "id": 100024,
+                      "pertanyaan": "Bagaimana cara mendeklarasikan variabel dalam JavaScript?",
+                      "jawaban": "Dengan menggunakan kata kunci 'var', 'let', atau 'const'."
+                    }
+                  ],
+                  "video_pembahasan": "https://example.com/video-pengantar-pemrograman"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 102,
+          "nama": "Kelas Intensif",
+          "buku": [
+            {
+              "id": 1005,
+              "buku": "Buku Materi",
+              "bab": [
+                {
+                  "id": 10013,
+                  "nama": "Bab 1",
+                  "soal": [
+                    {
+                      "id": 100025,
+                      "pertanyaan": "Apa yang dimaksud dengan variabel dalam pemrograman?",
+                      "jawaban": "Variabel adalah simbol yang digunakan untuk menyimpan nilai."
+                    },
+                    {
+                      "id": 100026,
+                      "pertanyaan": "Bagaimana cara mendeklarasikan variabel dalam JavaScript?",
+                      "jawaban": "Dengan menggunakan kata kunci 'var', 'let', atau 'const'."
+                    }
+                  ],
+                  "video_pembahasan": "https://example.com/video-pengantar-pemrograman"
+                },
+                {
+                  "id": 10014,
+                  "nama": "Bab 2",
+                  "soal": [
+                    {
+                      "id": 100027,
+                      "pertanyaan": "Apa yang dimaksud dengan variabel dalam pemrograman?",
+                      "jawaban": "Variabel adalah simbol yang digunakan untuk menyimpan nilai."
+                    },
+                    {
+                      "id": 100028,
+                      "pertanyaan": "Bagaimana cara mendeklarasikan variabel dalam JavaScript?",
+                      "jawaban": "Dengan menggunakan kata kunci 'var', 'let', atau 'const'."
+                    }
+                  ],
+                  "video_pembahasan": "https://example.com/video-pengantar-pemrograman"
+                },
+                {
+                  "id": 10015,
+                  "nama": "Bab 3",
+                  "soal": [
+                    {
+                      "id": 100029,
+                      "pertanyaan": "Apa yang dimaksud dengan variabel dalam pemrograman?",
+                      "jawaban": "Variabel adalah simbol yang digunakan untuk menyimpan nilai."
+                    },
+                    {
+                      "id": 100030,
+                      "pertanyaan": "Bagaimana cara mendeklarasikan variabel dalam JavaScript?",
+                      "jawaban": "Dengan menggunakan kata kunci 'var', 'let', atau 'const'."
+                    }
+                  ],
+                  "video_pembahasan": "https://example.com/video-pengantar-pemrograman"
+                }
+              ]
+            },
+            {
+              "id": 1006,
+              "buku": "Buku Paktek",
+              "bab": [
+                {
+                  "id": 10016,
+                  "nama": "Bab 1",
+                  "soal": [
+                    {
+                      "id": 100031,
+                      "pertanyaan": "Apa yang dimaksud dengan variabel dalam pemrograman?",
+                      "jawaban": "Variabel adalah simbol yang digunakan untuk menyimpan nilai."
+                    },
+                    {
+                      "id": 100032,
+                      "pertanyaan": "Bagaimana cara mendeklarasikan variabel dalam JavaScript?",
+                      "jawaban": "Dengan menggunakan kata kunci 'var', 'let', atau 'const'."
+                    }
+                  ],
+                  "video_pembahasan": "https://example.com/video-pengantar-pemrograman"
+                },
+                {
+                  "id": 10017,
+                  "nama": "Bab 2",
+                  "soal": [
+                    {
+                      "id": 100033,
+                      "pertanyaan": "Apa yang dimaksud dengan variabel dalam pemrograman?",
+                      "jawaban": "Variabel adalah simbol yang digunakan untuk menyimpan nilai."
+                    },
+                    {
+                      "id": 100034,
+                      "pertanyaan": "Bagaimana cara mendeklarasikan variabel dalam JavaScript?",
+                      "jawaban": "Dengan menggunakan kata kunci 'var', 'let', atau 'const'."
+                    }
+                  ],
+                  "video_pembahasan": "https://example.com/video-pengantar-pemrograman"
+                },
+                {
+                  "id": 10018,
+                  "nama": "Bab 3",
+                  "soal": [
+                    {
+                      "id": 100035,
+                      "pertanyaan": "Apa yang dimaksud dengan variabel dalam pemrograman?",
+                      "jawaban": "Variabel adalah simbol yang digunakan untuk menyimpan nilai."
+                    },
+                    {
+                      "id": 100036,
+                      "pertanyaan": "Bagaimana cara mendeklarasikan variabel dalam JavaScript?",
+                      "jawaban": "Dengan menggunakan kata kunci 'var', 'let', atau 'const'."
+                    }
+                  ],
+                  "video_pembahasan": "https://example.com/video-pengantar-pemrograman"
+                }
+              ]
+            },
+            {
+              "id": 1007,
+              "buku": "Buku 1000 Soal",
+              "bab": [
+                {
+                  "id": 10019,
+                  "nama": "Bab 1",
+                  "soal": [
+                    {
+                      "id": 100037,
+                      "pertanyaan": "Apa yang dimaksud dengan variabel dalam pemrograman?",
+                      "jawaban": "Variabel adalah simbol yang digunakan untuk menyimpan nilai."
+                    },
+                    {
+                      "id": 100038,
+                      "pertanyaan": "Bagaimana cara mendeklarasikan variabel dalam JavaScript?",
+                      "jawaban": "Dengan menggunakan kata kunci 'var', 'let', atau 'const'."
+                    }
+                  ],
+                  "video_pembahasan": "https://example.com/video-pengantar-pemrograman"
+                },
+                {
+                  "id": 10020,
+                  "nama": "Bab 2",
+                  "soal": [
+                    {
+                      "id": 100039,
+                      "pertanyaan": "Apa yang dimaksud dengan variabel dalam pemrograman?",
+                      "jawaban": "Variabel adalah simbol yang digunakan untuk menyimpan nilai."
+                    },
+                    {
+                      "id": 100040,
+                      "pertanyaan": "Bagaimana cara mendeklarasikan variabel dalam JavaScript?",
+                      "jawaban": "Dengan menggunakan kata kunci 'var', 'let', atau 'const'."
+                    }
+                  ],
+                  "video_pembahasan": "https://example.com/video-pengantar-pemrograman"
+                },
+                {
+                  "id": 10021,
+                  "nama": "Bab 3",
+                  "soal": [
+                    {
+                      "id": 100041,
+                      "pertanyaan": "Apa yang dimaksud dengan variabel dalam pemrograman?",
+                      "jawaban": "Variabel adalah simbol yang digunakan untuk menyimpan nilai."
+                    },
+                    {
+                      "id": 100042,
+                      "pertanyaan": "Bagaimana cara mendeklarasikan variabel dalam JavaScript?",
+                      "jawaban": "Dengan menggunakan kata kunci 'var', 'let', atau 'const'."
+                    }
+                  ],
+                  "video_pembahasan": "https://example.com/video-pengantar-pemrograman"
+                }
+              ]
+            },
+            {
+              "id": 1008,
+              "buku": "Buku Latihan",
+              "bab": [
+                {
+                  "id": 10022,
+                  "nama": "Bab 1",
+                  "soal": [
+                    {
+                      "id": 100043,
+                      "pertanyaan": "Apa yang dimaksud dengan variabel dalam pemrograman?",
+                      "jawaban": "Variabel adalah simbol yang digunakan untuk menyimpan nilai."
+                    },
+                    {
+                      "id": 100044,
+                      "pertanyaan": "Bagaimana cara mendeklarasikan variabel dalam JavaScript?",
+                      "jawaban": "Dengan menggunakan kata kunci 'var', 'let', atau 'const'."
+                    }
+                  ],
+                  "video_pembahasan": "https://example.com/video-pengantar-pemrograman"
+                },
+                {
+                  "id": 10023,
+                  "nama": "Bab 2",
+                  "soal": [
+                    {
+                      "id": 100045,
+                      "pertanyaan": "Apa yang dimaksud dengan variabel dalam pemrograman?",
+                      "jawaban": "Variabel adalah simbol yang digunakan untuk menyimpan nilai."
+                    },
+                    {
+                      "id": 100046,
+                      "pertanyaan": "Bagaimana cara mendeklarasikan variabel dalam JavaScript?",
+                      "jawaban": "Dengan menggunakan kata kunci 'var', 'let', atau 'const'."
+                    }
+                  ],
+                  "video_pembahasan": "https://example.com/video-pengantar-pemrograman"
+                },
+                {
+                  "id": 10024,
+                  "nama": "Bab 3",
+                  "soal": [
+                    {
+                      "id": 100047,
+                      "pertanyaan": "Apa yang dimaksud dengan variabel dalam pemrograman?",
+                      "jawaban": "Variabel adalah simbol yang digunakan untuk menyimpan nilai."
+                    },
+                    {
+                      "id": 100048,
+                      "pertanyaan": "Bagaimana cara mendeklarasikan variabel dalam JavaScript?",
+                      "jawaban": "Dengan menggunakan kata kunci 'var', 'let', atau 'const'."
+                    }
+                  ],
+                  "video_pembahasan": "https://example.com/video-pengantar-pemrograman"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nama": "Manajemen Bisnis",
+      "program_studi": [
+        {
+          "id": 201,
+          "nama": "Bisnis",
+          "buku": [
+            {
+              "id": 1004,
+              "judul": "Pemasaran Digital",
+              "deskripsi": "Materi tentang strategi pemasaran digital.",
+              "soal": [
+                {
+                  "id": 2007,
+                  "pertanyaan": "Apa keuntungan menggunakan media sosial untuk pemasaran?",
+                  "jawaban": "Memperluas jangkauan dan interaksi dengan pelanggan potensial."
+                },
+                {
+                  "id": 2008,
+                  "pertanyaan": "Bagaimana cara melakukan kampanye iklan online?",
+                  "jawaban": "Dengan menargetkan audiens yang tepat dan mengukur kinerja kampanye."
+                }
+              ],
+              "video_pembahasan": "https://example.com/video-pemasaran-digital"
+            },
+            {
+              "id": 1004,
+              "judul": "Pemasaran Digital",
+              "deskripsi": "Materi tentang strategi pemasaran digital.",
+              "soal": [
+                {
+                  "id": 2007,
+                  "pertanyaan": "Apa keuntungan menggunakan media sosial untuk pemasaran?",
+                  "jawaban": "Memperluas jangkauan dan interaksi dengan pelanggan potensial."
+                },
+                {
+                  "id": 2008,
+                  "pertanyaan": "Bagaimana cara melakukan kampanye iklan online?",
+                  "jawaban": "Dengan menargetkan audiens yang tepat dan mengukur kinerja kampanye."
+                }
+              ],
+              "video_pembahasan": "https://example.com/video-pemasaran-digital"
+            },
+            {
+              "id": 1004,
+              "judul": "Pemasaran Digital",
+              "deskripsi": "Materi tentang strategi pemasaran digital.",
+              "soal": [
+                {
+                  "id": 2007,
+                  "pertanyaan": "Apa keuntungan menggunakan media sosial untuk pemasaran?",
+                  "jawaban": "Memperluas jangkauan dan interaksi dengan pelanggan potensial."
+                },
+                {
+                  "id": 2008,
+                  "pertanyaan": "Bagaimana cara melakukan kampanye iklan online?",
+                  "jawaban": "Dengan menargetkan audiens yang tepat dan mengukur kinerja kampanye."
+                }
+              ],
+              "video_pembahasan": "https://example.com/video-pemasaran-digital"
+            },
+            {
+              "id": 1004,
+              "judul": "Pemasaran Digital",
+              "deskripsi": "Materi tentang strategi pemasaran digital.",
+              "soal": [
+                {
+                  "id": 2007,
+                  "pertanyaan": "Apa keuntungan menggunakan media sosial untuk pemasaran?",
+                  "jawaban": "Memperluas jangkauan dan interaksi dengan pelanggan potensial."
+                },
+                {
+                  "id": 2008,
+                  "pertanyaan": "Bagaimana cara melakukan kampanye iklan online?",
+                  "jawaban": "Dengan menargetkan audiens yang tepat dan mengukur kinerja kampanye."
+                }
+              ],
+              "video_pembahasan": "https://example.com/video-pemasaran-digital"
+            },
+            {
+              "id": 1004,
+              "judul": "Pemasaran Digital",
+              "deskripsi": "Materi tentang strategi pemasaran digital.",
+              "soal": [
+                {
+                  "id": 2007,
+                  "pertanyaan": "Apa keuntungan menggunakan media sosial untuk pemasaran?",
+                  "jawaban": "Memperluas jangkauan dan interaksi dengan pelanggan potensial."
+                },
+                {
+                  "id": 2008,
+                  "pertanyaan": "Bagaimana cara melakukan kampanye iklan online?",
+                  "jawaban": "Dengan menargetkan audiens yang tepat dan mengukur kinerja kampanye."
+                }
+              ],
+              "video_pembahasan": "https://example.com/video-pemasaran-digital"
+            }
+          ]
+        },
+        {
+          "id": 201,
+          "nama": "Bisnis",
+          "buku": [
+            {
+              "id": 1004,
+              "judul": "Pemasaran Digital",
+              "deskripsi": "Materi tentang strategi pemasaran digital.",
+              "soal": [
+                {
+                  "id": 2007,
+                  "pertanyaan": "Apa keuntungan menggunakan media sosial untuk pemasaran?",
+                  "jawaban": "Memperluas jangkauan dan interaksi dengan pelanggan potensial."
+                },
+                {
+                  "id": 2008,
+                  "pertanyaan": "Bagaimana cara melakukan kampanye iklan online?",
+                  "jawaban": "Dengan menargetkan audiens yang tepat dan mengukur kinerja kampanye."
+                }
+              ],
+              "video_pembahasan": "https://example.com/video-pemasaran-digital"
+            },
+            {
+              "id": 1004,
+              "judul": "Pemasaran Digital",
+              "deskripsi": "Materi tentang strategi pemasaran digital.",
+              "soal": [
+                {
+                  "id": 2007,
+                  "pertanyaan": "Apa keuntungan menggunakan media sosial untuk pemasaran?",
+                  "jawaban": "Memperluas jangkauan dan interaksi dengan pelanggan potensial."
+                },
+                {
+                  "id": 2008,
+                  "pertanyaan": "Bagaimana cara melakukan kampanye iklan online?",
+                  "jawaban": "Dengan menargetkan audiens yang tepat dan mengukur kinerja kampanye."
+                }
+              ],
+              "video_pembahasan": "https://example.com/video-pemasaran-digital"
+            },
+            {
+              "id": 1004,
+              "judul": "Pemasaran Digital",
+              "deskripsi": "Materi tentang strategi pemasaran digital.",
+              "soal": [
+                {
+                  "id": 2007,
+                  "pertanyaan": "Apa keuntungan menggunakan media sosial untuk pemasaran?",
+                  "jawaban": "Memperluas jangkauan dan interaksi dengan pelanggan potensial."
+                },
+                {
+                  "id": 2008,
+                  "pertanyaan": "Bagaimana cara melakukan kampanye iklan online?",
+                  "jawaban": "Dengan menargetkan audiens yang tepat dan mengukur kinerja kampanye."
+                }
+              ],
+              "video_pembahasan": "https://example.com/video-pemasaran-digital"
+            },
+            {
+              "id": 1004,
+              "judul": "Pemasaran Digital",
+              "deskripsi": "Materi tentang strategi pemasaran digital.",
+              "soal": [
+                {
+                  "id": 2007,
+                  "pertanyaan": "Apa keuntungan menggunakan media sosial untuk pemasaran?",
+                  "jawaban": "Memperluas jangkauan dan interaksi dengan pelanggan potensial."
+                },
+                {
+                  "id": 2008,
+                  "pertanyaan": "Bagaimana cara melakukan kampanye iklan online?",
+                  "jawaban": "Dengan menargetkan audiens yang tepat dan mengukur kinerja kampanye."
+                }
+              ],
+              "video_pembahasan": "https://example.com/video-pemasaran-digital"
+            },
+            {
+              "id": 1004,
+              "judul": "Pemasaran Digital",
+              "deskripsi": "Materi tentang strategi pemasaran digital.",
+              "soal": [
+                {
+                  "id": 2007,
+                  "pertanyaan": "Apa keuntungan menggunakan media sosial untuk pemasaran?",
+                  "jawaban": "Memperluas jangkauan dan interaksi dengan pelanggan potensial."
+                },
+                {
+                  "id": 2008,
+                  "pertanyaan": "Bagaimana cara melakukan kampanye iklan online?",
+                  "jawaban": "Dengan menargetkan audiens yang tepat dan mengukur kinerja kampanye."
+                }
+              ],
+              "video_pembahasan": "https://example.com/video-pemasaran-digital"
+            }
+          ]
+        },
+        {
+          "id": 201,
+          "nama": "Bisnis",
+          "buku": [
+            {
+              "id": 1004,
+              "judul": "Pemasaran Digital",
+              "deskripsi": "Materi tentang strategi pemasaran digital.",
+              "soal": [
+                {
+                  "id": 2007,
+                  "pertanyaan": "Apa keuntungan menggunakan media sosial untuk pemasaran?",
+                  "jawaban": "Memperluas jangkauan dan interaksi dengan pelanggan potensial."
+                },
+                {
+                  "id": 2008,
+                  "pertanyaan": "Bagaimana cara melakukan kampanye iklan online?",
+                  "jawaban": "Dengan menargetkan audiens yang tepat dan mengukur kinerja kampanye."
+                }
+              ],
+              "video_pembahasan": "https://example.com/video-pemasaran-digital"
+            },
+            {
+              "id": 1004,
+              "judul": "Pemasaran Digital",
+              "deskripsi": "Materi tentang strategi pemasaran digital.",
+              "soal": [
+                {
+                  "id": 2007,
+                  "pertanyaan": "Apa keuntungan menggunakan media sosial untuk pemasaran?",
+                  "jawaban": "Memperluas jangkauan dan interaksi dengan pelanggan potensial."
+                },
+                {
+                  "id": 2008,
+                  "pertanyaan": "Bagaimana cara melakukan kampanye iklan online?",
+                  "jawaban": "Dengan menargetkan audiens yang tepat dan mengukur kinerja kampanye."
+                }
+              ],
+              "video_pembahasan": "https://example.com/video-pemasaran-digital"
+            },
+            {
+              "id": 1004,
+              "judul": "Pemasaran Digital",
+              "deskripsi": "Materi tentang strategi pemasaran digital.",
+              "soal": [
+                {
+                  "id": 2007,
+                  "pertanyaan": "Apa keuntungan menggunakan media sosial untuk pemasaran?",
+                  "jawaban": "Memperluas jangkauan dan interaksi dengan pelanggan potensial."
+                },
+                {
+                  "id": 2008,
+                  "pertanyaan": "Bagaimana cara melakukan kampanye iklan online?",
+                  "jawaban": "Dengan menargetkan audiens yang tepat dan mengukur kinerja kampanye."
+                }
+              ],
+              "video_pembahasan": "https://example.com/video-pemasaran-digital"
+            },
+            {
+              "id": 1004,
+              "judul": "Pemasaran Digital",
+              "deskripsi": "Materi tentang strategi pemasaran digital.",
+              "soal": [
+                {
+                  "id": 2007,
+                  "pertanyaan": "Apa keuntungan menggunakan media sosial untuk pemasaran?",
+                  "jawaban": "Memperluas jangkauan dan interaksi dengan pelanggan potensial."
+                },
+                {
+                  "id": 2008,
+                  "pertanyaan": "Bagaimana cara melakukan kampanye iklan online?",
+                  "jawaban": "Dengan menargetkan audiens yang tepat dan mengukur kinerja kampanye."
+                }
+              ],
+              "video_pembahasan": "https://example.com/video-pemasaran-digital"
+            },
+            {
+              "id": 1004,
+              "judul": "Pemasaran Digital",
+              "deskripsi": "Materi tentang strategi pemasaran digital.",
+              "soal": [
+                {
+                  "id": 2007,
+                  "pertanyaan": "Apa keuntungan menggunakan media sosial untuk pemasaran?",
+                  "jawaban": "Memperluas jangkauan dan interaksi dengan pelanggan potensial."
+                },
+                {
+                  "id": 2008,
+                  "pertanyaan": "Bagaimana cara melakukan kampanye iklan online?",
+                  "jawaban": "Dengan menargetkan audiens yang tepat dan mengukur kinerja kampanye."
+                }
+              ],
+              "video_pembahasan": "https://example.com/video-pemasaran-digital"
+            }
+          ]
+        },
+        {
+          "id": 201,
+          "nama": "Bisnis",
+          "buku": [
+            {
+              "id": 1004,
+              "judul": "Pemasaran Digital",
+              "deskripsi": "Materi tentang strategi pemasaran digital.",
+              "soal": [
+                {
+                  "id": 2007,
+                  "pertanyaan": "Apa keuntungan menggunakan media sosial untuk pemasaran?",
+                  "jawaban": "Memperluas jangkauan dan interaksi dengan pelanggan potensial."
+                },
+                {
+                  "id": 2008,
+                  "pertanyaan": "Bagaimana cara melakukan kampanye iklan online?",
+                  "jawaban": "Dengan menargetkan audiens yang tepat dan mengukur kinerja kampanye."
+                }
+              ],
+              "video_pembahasan": "https://example.com/video-pemasaran-digital"
+            },
+            {
+              "id": 1004,
+              "judul": "Pemasaran Digital",
+              "deskripsi": "Materi tentang strategi pemasaran digital.",
+              "soal": [
+                {
+                  "id": 2007,
+                  "pertanyaan": "Apa keuntungan menggunakan media sosial untuk pemasaran?",
+                  "jawaban": "Memperluas jangkauan dan interaksi dengan pelanggan potensial."
+                },
+                {
+                  "id": 2008,
+                  "pertanyaan": "Bagaimana cara melakukan kampanye iklan online?",
+                  "jawaban": "Dengan menargetkan audiens yang tepat dan mengukur kinerja kampanye."
+                }
+              ],
+              "video_pembahasan": "https://example.com/video-pemasaran-digital"
+            },
+            {
+              "id": 1004,
+              "judul": "Pemasaran Digital",
+              "deskripsi": "Materi tentang strategi pemasaran digital.",
+              "soal": [
+                {
+                  "id": 2007,
+                  "pertanyaan": "Apa keuntungan menggunakan media sosial untuk pemasaran?",
+                  "jawaban": "Memperluas jangkauan dan interaksi dengan pelanggan potensial."
+                },
+                {
+                  "id": 2008,
+                  "pertanyaan": "Bagaimana cara melakukan kampanye iklan online?",
+                  "jawaban": "Dengan menargetkan audiens yang tepat dan mengukur kinerja kampanye."
+                }
+              ],
+              "video_pembahasan": "https://example.com/video-pemasaran-digital"
+            },
+            {
+              "id": 1004,
+              "judul": "Pemasaran Digital",
+              "deskripsi": "Materi tentang strategi pemasaran digital.",
+              "soal": [
+                {
+                  "id": 2007,
+                  "pertanyaan": "Apa keuntungan menggunakan media sosial untuk pemasaran?",
+                  "jawaban": "Memperluas jangkauan dan interaksi dengan pelanggan potensial."
+                },
+                {
+                  "id": 2008,
+                  "pertanyaan": "Bagaimana cara melakukan kampanye iklan online?",
+                  "jawaban": "Dengan menargetkan audiens yang tepat dan mengukur kinerja kampanye."
+                }
+              ],
+              "video_pembahasan": "https://example.com/video-pemasaran-digital"
+            },
+            {
+              "id": 1004,
+              "judul": "Pemasaran Digital",
+              "deskripsi": "Materi tentang strategi pemasaran digital.",
+              "soal": [
+                {
+                  "id": 2007,
+                  "pertanyaan": "Apa keuntungan menggunakan media sosial untuk pemasaran?",
+                  "jawaban": "Memperluas jangkauan dan interaksi dengan pelanggan potensial."
+                },
+                {
+                  "id": 2008,
+                  "pertanyaan": "Bagaimana cara melakukan kampanye iklan online?",
+                  "jawaban": "Dengan menargetkan audiens yang tepat dan mengukur kinerja kampanye."
+                }
+              ],
+              "video_pembahasan": "https://example.com/video-pemasaran-digital"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
